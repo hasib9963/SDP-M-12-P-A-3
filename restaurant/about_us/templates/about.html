@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+
+{% load static %} 
+
+{% block content %}
+<div class="container">
+  <div class="grid-container">
+    <div class="grid-item text">
+      <p>
+        At Food Fusion,we reimagine the ordinary and transform it into the
+        extraordinary. Our chefs, inspired by a passion for innovation,curate a
+        menu that tantalizes taste buds with a symphony of global influences.
+        From the vibrant spices of India to the delicate techniques of French
+        cuisine, each dish is a masterpiece crafted with precision and care.
+        Step into our inviting ambiance, where the aroma of sizzling spices
+        mingles with the laughter of friends and family. Whether you seek a cozy
+        dinner for two or a vibrant gathering, our warm hospitality and diverse
+        menu cater to every occasion. We take pride in sourcing the finest,
+        freshest ingredients, ensuring every bite bursts with flavor and
+        authenticity. Each plate tells a story, inviting you to embark on a
+        culinary journey that transcends boundaries and celebrates the beauty of
+        diversity. Join us at Food Fusion, where culinary boundaries disappear,
+        and every meal is an adventure in taste and culture.
+    </p>
+    </div>
+    <div class="grid-item images">
+      <img src="{% static "images/about-image.jpg" %}" alt="about images">
+    </div>
+  </div>
+</div>
+
+{% endblock %}

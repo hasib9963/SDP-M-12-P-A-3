@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% load static %}
+
+{% block content %}
+
+<div class="container">
+    <div class="grid-container">
+      <div class="grid-item text">
+        <h1>Welcome to Food Fusion</h1>
+        <p>Here You can taste some amazing, delicious food.Food Fusion specializes in delicious food featuring fresh ingredients and masterful preparation by the Food Fusion culinary team. Whether you’re ordering a multi-course meal or grabbing a drink and pizza at the bar, Food Fusion's lively, casual yet upscale atmosphere makes it perfect for dining with friends, family, clients and business associates.</p>
+      </div>
+      <div class="grid-item images">
+      <img src="{% static "images/home-images.jpg" %}" alt="Restaurant Home Image">
+      </div>
+    </div>
+  </div>
+
+{% endblock %}
